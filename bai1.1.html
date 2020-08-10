@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.1</title>
+</head>
+<body>
+    <script>
+        let diemtoan;
+        let diemly;
+        let diemhoa;
+        diemtoan = prompt("Nhập điểm toán");
+        diemly = prompt("Nhập điểm lý");
+        diemhoa = prompt("Nhập điểm hóa");
+        let toan = parseInt(diemtoan);
+        let ly = parseInt(diemly);
+        let hoa = parseInt(diemhoa);
+        let tong = (toan + ly + hoa);
+        let tb = (toan + ly + hoa)/3;
+        document.write("Điểm toán là: " + toan);
+        document.write("<br>");
+        document.write("Điểm lý  là: " + ly);
+        document.write("<br>");
+        document.write("Điểm hóa  là: " + hoa);
+        document.write("<br>");
+        document.write("Điểm trung bình là: " + tb);
+        document.write("<br>");
+        document.write("Điểm tổng bình là: " + tong);
+    </script>
+</body>
+</html>
